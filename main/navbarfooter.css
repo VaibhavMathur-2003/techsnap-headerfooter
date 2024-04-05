@@ -681,7 +681,6 @@ body{
 }
 
 .input_holder {
-  margin-top: 10px;
   display: flex;
   justify-content: space-around;
 }
@@ -809,6 +808,10 @@ body{
     position: relative;
     align-items: flex-start;
     padding-left: 18px;
+  }
+  .input_holder{
+    margin-top: 10px;
+
   }
 }
 
