@@ -661,7 +661,7 @@ body{
 }
 
 .join_our {
-  padding: 0 50px;
+  /* padding: 0 50px; */
   width: 100%;
   height: 100px;
   display: flex;
@@ -681,6 +681,7 @@ body{
 }
 
 .input_holder {
+  margin-top: 10px;
   display: flex;
   justify-content: space-around;
 }
@@ -804,7 +805,7 @@ body{
   }
 
   .join_our {
-    padding-top: 40px;
+    padding-top: 60px;
     position: relative;
     align-items: flex-start;
     padding-left: 18px;
@@ -844,7 +845,7 @@ body{
     width: 50%;
   }
   .join_our{
-    padding-top: 40px;
+    padding-top: 60px;
     padding-left: 20px;
   }
 }
