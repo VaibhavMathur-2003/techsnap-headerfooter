@@ -1258,7 +1258,6 @@
 			<div class="join_our desktop">
 				<p>Join our newsletter</p>
 				<form class="input_holder" method="POST" action="{% url 'nextpage' %}">
-					{% csrf_token %}
 					<input type="text" name="email"/>
 					<button type="submit">Subscribe</button>
 				</form>
@@ -1267,7 +1266,6 @@
 		<div class="join_our responsive">
 			<p>Join our newsletter</p>
 			<form class="input_holder" method="POST" action="{% url 'nextpage' %}">
-				{% csrf_token %}
 				<input type="text" name="email"/>
 				<button type="submit">Subscribe</button>
 			</form>
