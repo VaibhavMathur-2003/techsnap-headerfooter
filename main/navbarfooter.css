@@ -804,6 +804,7 @@ body{
   }
 
   .join_our {
+    padding-top: 40px;
     position: relative;
     align-items: flex-start;
     padding-left: 18px;
@@ -843,6 +844,7 @@ body{
     width: 50%;
   }
   .join_our{
+    padding-top: 40px;
     padding-left: 20px;
   }
 }
