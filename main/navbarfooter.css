@@ -813,6 +813,9 @@ body{
     margin-top: 10px;
 
   }
+  .Privacy_holder{
+    margin-top: 15px;
+  }
 }
 
 @media (max-width: 750px) {
