@@ -674,7 +674,7 @@ body{
 }
 
 .join_our p {
-  width: 217px;
+  width: 288px;
   color: #fff;
   font-weight: 500;
   white-space: nowrap;
@@ -805,7 +805,8 @@ body{
 
   .join_our {
     position: relative;
-    align-items: center;
+    align-items: flex-start;
+    padding-left: 18px;
   }
 }
 
@@ -830,6 +831,7 @@ body{
   .Privacy_holder {
     justify-content: space-around;
     flex-direction: column-reverse;
+    align-items: baseline;
     padding: 10px;
   }
 
@@ -839,6 +841,9 @@ body{
 
   .Social-media {
     width: 50%;
+  }
+  .join_our{
+    padding-left: 20px;
   }
 }
 
@@ -871,4 +876,9 @@ body{
   .contact-us-section {
     height: 97vh;
   }
+}
+
+.newsletter{
+  align-items: flex-start;
+  padding: 20px;
 }
